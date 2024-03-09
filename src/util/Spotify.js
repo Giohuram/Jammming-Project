@@ -1,5 +1,5 @@
 const clientId = '0b14b1c0eb664048bffb8acb810c0336'; // Insert client ID here.
-const redirectUri = 'https://accounts.spotify.com/authorize?client_id=0b14b1c0eb664048bffb8acb810c0336&response_type=token&scope=playlist-modify-public&redirect_uri=https://jamming-tunes.netlify.app/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://jamming-tunes.netlify.app'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
